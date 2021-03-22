@@ -1,5 +1,4 @@
 # Linux-Commands 
-![Alt text](https://es.wikipedia.org/wiki/Tux#/media/Archivo:Tux.svg"Optional title")
 
 ------------
 
