@@ -14,12 +14,21 @@ This command works with files and apply differents effects deppends of the flag.
 Use git to clone my repository
 > git clone https://github.com/Sstark97/Linux-Commands.git
 
+You have two options to install the command, with Python or C.
+#### Python-Version
 If you want to run this command in the terminal, first you have to give it execution permissions.
 > chmod u+x pcase.py
 
 After you move the file to /usr/bin. At this moment you can run this command if you write pcase.py.
 If you want to run the command only writting pcase, you must create an alias in the file ~/.bashrc
 
+#### C-Version
+**WARNING:** The C version of this command is still under development 
+
+First you must compile the file pcase.c, additional_modules.c and flags.c.
+> gcc pcase.c additional_modules.c flags.c -o pcase
+
+When you have the executable, move the file to to /usr/bin
 ### Flags Description
 -h, --help: show the help message and exit
 
