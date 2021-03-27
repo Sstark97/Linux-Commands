@@ -73,3 +73,29 @@ If you want to run the command only writting translate, you must create an alias
 -j, --japanese: Translate the sentence to Japanese
 
 -v, --verbose: Give details about actions being performed
+
+## ftranslate command
+This command works with files and translate it to some languages.
+
+### Installation
+Use git to clone my repository
+> git clone https://github.com/Sstark97/Linux-Commands.git
+
+If you want to run this command in the terminal, first you have to give it execution permissions.
+> chmod u+x ftranslate.py
+
+After you move the file to /usr/bin. At this moment you can run this command if you write ftranslate.py.
+If you want to run the command only writting ftranslate, you must create an alias in the file ~/.bashrc
+
+### Flags Description
+-h, --help: show the help message and exit
+
+-s, --spanish: Translate the file to Spanish
+
+-e, --english: Translate the file to English
+
+-d, --deutch: Translate the file to Deutch
+
+-f, --french: Translate the file to French
+
+-v, --verbose: Give details about actions being performed
