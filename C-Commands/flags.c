@@ -5,6 +5,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <stdio.h>
 
 
 #include "flags.h"
@@ -28,10 +29,13 @@ int sentence(char* file){
             char c = toupper(*buffer);
             copy[i] = c;
             j++;
-        } else if(strcmp(buffer,".") == 0){
-            copy[i] = *buffer;
-            j = 0;
         } else if(!isalpha(*buffer)){
+            if(strcmp(buffer,".") > 0){
+                copy[i] = *buffer;
+                j = 0;
+                i++;
+                continue;
+            }
             copy[i] = *buffer;
         }else {
             copy[i] = tolower(*buffer);
