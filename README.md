@@ -8,7 +8,7 @@ In this project you will find my customs Linux-commands
 ------------
 
 ## pcase command
-This command works with files and apply differents effects deppends of the flag. At the moment, this command can only be applied to a local file in the directory where you are located
+This command works with files and apply differents effects deppends of the flag.
 
 ### Installation
 Use git to clone my repository
@@ -42,7 +42,27 @@ When you have the executable, move the file to to /usr/bin
 
 -t, --toggleCase: It will put the first letter of each word contained in the file in lowercase and the rest in capital letter
 
--v, --verbose: Give details about actions being performed
+-v, --verbose: Give details about actions being performed (Only in Python-version)
+
+## mpcase command
+This command works with a list of files and apply differents effects deppends of the flag. This command only have C-version.
+
+### Installation
+Use git to clone my repository
+> git clone https://github.com/Sstark97/Linux-Commands.git
+
+### Flags Description
+-h, --help: show the help message and exit
+
+-s, --sentenceCase: Change all the sentences contained in the file by capitalizing the first letter of the initial word of each sentence
+
+-l, --lowwercase: It will put all the text contained in the file in lowercase
+
+-U, --uppercase: It will put all the text contained in the file in capital letters
+
+-C, --capitalizeEachWord: It will put the first letter of each word contained in the file in capital letter
+
+-t, --toggleCase: It will put the first letter of each word contained in the file in lowercase and the rest in capital letter
 
 ## translate command
 This command works with strings and translate it to some languages.
